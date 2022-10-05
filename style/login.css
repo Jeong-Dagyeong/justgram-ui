@@ -1,6 +1,6 @@
-* {
+body {
   display: flex;
-  /* align-items: center; */
+  justify-content: center;
 }
 
 h1 {
@@ -10,8 +10,8 @@ h1 {
 }
 
 .wrapper {
-  width: 500px;
-  height: 600px;
+  width: 350px;
+  height: 395px;
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -21,19 +21,25 @@ h1 {
 .loginBox {
   display: flex;
   flex-direction: column;
+
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .loginBox > input {
-  width: 300px;
-  height: 40px;
+  width: 258px;
+  height: 36px;
   margin-top: 20px;
+  padding: 9px;
+  justify-content: center;
   border: 1px solid gray;
 }
 
 input {
   margin-top: 40px;
   border-radius: 3px;
+  align-items: center;
   background-color: #fafafa;
 }
 
@@ -45,7 +51,14 @@ input {
   border: none;
 }
 
+.classListBtn {
+  background-color: red;
+}
+
 p {
   font-size: small;
   color: navy;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 120px;
 }
